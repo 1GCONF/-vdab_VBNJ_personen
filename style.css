@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+html li {
+  list-style-type: none;
+}
+html body {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: rgba(15, 15, 17, 0.893);
+  color: white;
+}
+html body header > .header-title {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1ch;
+}
+html body main {
+  margin: 3ex;
+  padding: 0.7rem;
+}
+html body main > article {
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.118);
+}
+html body main > article .titel_h2 {
+  padding: 6px;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+html body main > article ul {
+  padding: 1rem;
+}
+html body main > article ul li {
+  margin: 4px;
+  padding: 1ch;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=style.css.map */

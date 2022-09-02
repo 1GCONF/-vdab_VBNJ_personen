@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+$size_header-title:2.7rem;
+$size_article_li:1.1rem;
+$size_article_h2:1.7rem;
+$padding_main:.7rem;
+$padding_header-title:1ch;
+$padding_article:.5rem;
+$padding_article_title:6px;
+$padding_article_ul:1rem;
+$padding_article_li:1ch;
+$margin_article:1rem;
+$margin_article_li:4px;
+$margin_main:3ex;
+$bg_body:rgba(15, 15, 17, 0.893);
+$bg_article:rgba(0, 0, 0, 0.118);
+html{
+    li{list-style-type: none;}
+    body{
+        max-width: 1400px;
+        margin: 0 auto;
+        min-height: 100vh;
+        background-color: $bg_body;
+        color: white;
+        header{
+            &>.header-title{
+                font-size: $size_header-title;
+                text-align: center;
+                padding: $padding_header-title;
+            }
+        }
+        main{
+            margin: $margin_main;
+            padding: $padding_main;
+            &>article{
+                padding: $padding_article;
+                margin: $margin_article;
+                text-align: center;
+                background-color: $bg_article;
+                .titel_h2{
+                    padding: $padding_article_title;
+                    text-transform: capitalize;
+                    font-size: $size_article_h2;
+                }
+                ul{
+                    padding: $padding_article_ul;
+                    li{
+                        margin: $margin_article_li;
+                        padding: $padding_article_li;
+                        font-size: $size_article_li;
+                        text-transform: capitalize;
+                    }
+                }
+
+            }
+            article.allePersonen{
+
+            }
+            article.kleinstePersoon{
+
+            }
+            artcile.grootstePersoon{
+
+            }
+        }
+
+    }
+}
